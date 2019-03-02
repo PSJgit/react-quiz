@@ -1,0 +1,72 @@
+
+/* Feedback 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#feedback {
+  grid-gap: 1em;
+  #title {
+    grid-column: 1/11;
+    text-align: center;
+
+    p {
+      font-weight: bold;
+      font-family: $bodyFont;
+    }
+  }
+
+  #correct, #incorrect {
+    background: $offWhite;
+    min-height: 50vh;
+    padding: 2em;
+    align-content: space-evenly;
+    font-size: 90%;
+    p {
+      &:first-child{
+        font-size: 100%;
+        font-weight: bold;
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+  #correct {
+    grid-column: 1/6;
+  }
+
+  #incorrect {
+    grid-column: 6/11;
+  }
+
+  #feedback-block {
+    grid-column: 1/11;
+    background: $offWhite;
+    min-height: 20vh;
+    padding: 2em;
+    text-align: center;
+    .fail{
+      margin-bottom: 1em;
+    }
+    p {
+      font-weight: bold;
+
+    }
+  }
+}
+
+
+/* Retake button 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#retake {
+  grid-column: 4/8;
+  background: $offBlack;
+  transition: 0.3s transform ease;
+  @extend %button;
+  p {
+    color: $offWhite;
+  }
+  &:hover {
+    transform: translateY(-0.3em);
+  }
+}
+

@@ -1,0 +1,79 @@
+
+/* Mixin for responsive font sizing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html, body, button {
+  @include fluid-type($small, $large, $min_font, $max_font);
+}
+
+
+/* Placeholders
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+%txt-shadow-light {
+  text-shadow: 4px 8px 6px rgba(0,0,0,0.1);
+}
+
+
+/* Titles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $titleFont;
+  color: $offBlack;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 20px 0;
+  
+}
+
+h1 {
+  @include fluid-type($small, $large, $h1_min, $h1_max);
+  @extend %txt-shadow-light;
+}
+
+h2 {
+  @include fluid-type($small, $large, $h2_min, $h2_max);
+  @extend %txt-shadow-light;
+}
+
+h3 {
+  @include fluid-type($small, $large, $h3_min, $h3_max);
+}
+
+
+/* Paragraphs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+p, li {
+  color: $offBlack;
+  font-family: $arialFont;
+  line-height: 1.4;
+}
+
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  list-style: none;
+  &:before, &:after {
+    margin-left: -1.1em;
+    margin-right: 0.4em;
+  }
+  &.incorrect {
+    &:before {
+      content: "⨯";
+      color: #D32F2F;
+    }
+  }
+  &.correct {
+    &:before {
+      content: "🗸";
+      color: #388E3C;
+    }
+  }  
+}

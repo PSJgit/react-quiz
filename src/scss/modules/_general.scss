@@ -1,0 +1,40 @@
+
+/* General layout and styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 50%);
+}
+
+// placeholder
+%button {
+  cursor: pointer;
+  min-height: 2em;
+  min-width: 4em;
+  padding: $medium-padding;
+  margin-bottom: 0.8em;
+}
+
+#root {
+  padding: 0 10px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.grid {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 0.5em;
+}
+
+
+/* Util 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+

@@ -1,0 +1,67 @@
+
+/* Font Declarations
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'work_sansblack';
+    src: url('../fonts/worksans-black-webfont.woff2') format('woff2'),
+         url('../fonts/worksans-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Font sizing, Font family
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+$titleFont : 'work_sansblack', 'arial';
+$bodyFont : 'open_sansregular', 'arial';
+$arialFont : 'arial';
+
+$h1_min: 30px;
+$h1_max: 90px;
+
+$h2_min: 18px;
+$h2_max: 60px;
+
+$h3_min: 16px;
+$h3_max: 32px;
+
+// set on html, body, button
+$min_font: 16px;
+$max_font: 24px;
+
+
+/* Padding
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+$medium-padding:  0.35em;
+
+
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+$bodyColor_primary: #F2B701;
+$bodyColor_secondary: #FECC2D;
+$bodyColor_tertiary: #FFF;
+
+$fontColor_primary: #212121;
+$fontColor_secondary: #262628;
+
+$offWhite: #fdfdfd;
+$offBlack: #353839;
+
+
+/* Responsive 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+$small: 480px;
+$large: 1280px;

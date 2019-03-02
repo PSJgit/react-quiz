@@ -1,0 +1,37 @@
+
+/* Media queries 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media all and (max-width: 480px) {
+  #feedback-correct, #feedback-incorrect, #question, #options {
+    grid-column: 1/11 !important;
+  } 
+  #counter {
+    grid-column: 1/8;
+  }
+  #options {
+    margin-right: 5%;
+    .option {
+      margin-right: -16%;
+    }
+  }
+  #feedback-correct, #feedback-incorrect {
+    min-height: 5vh !important;
+  }
+  #submit {
+    grid-column: 1/5;
+    margin: -10% 0%
+  }
+}
+
+/*  Boilerplate queries
+  
+  @media all and (max-width: 1024px) { } 
+
+  @media all and (max-width: 1024px) { } 
+
+  @media all and (max-width: 839px) {  }
+
+  @media all and (max-width: 480px) {  }
+
+*/
