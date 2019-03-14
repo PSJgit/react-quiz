@@ -135,7 +135,7 @@ const questions = [
       'Apollo 9',
       'Apollo 13'
     ],
-    answers: [0]
+    answers: [1]
   },
   {
     question: 'Who directed the film Taxi Driver?',
@@ -175,7 +175,7 @@ const questions = [
       'The Moon',
       'America'
     ],
-    answers: [3]
+    answers: [2]
   },
   {
     question: 'What are the three primary colours?',
