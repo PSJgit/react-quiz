@@ -135,7 +135,7 @@ const questions = [
       'Apollo 9',
       'Apollo 13'
     ],
-    answers: [0]
+    answers: [1]
   },
   {
     question: 'Who directed the film Taxi Driver?',
