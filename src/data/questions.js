@@ -175,7 +175,7 @@ const questions = [
       'The Moon',
       'America'
     ],
-    answers: [3]
+    answers: [2]
   },
   {
     question: 'What are the three primary colours?',
