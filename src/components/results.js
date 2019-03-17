@@ -52,7 +52,7 @@ class Results extends React.Component {
             {
               allAnswersIncorrect ? 
                 <Fragment>
-                  <p className='fail'>Unfortunately, you didn't answer any questions correctly</p>
+                  <p className='fail'>Unfortunately, you didn’t answer any questions correctly</p>
                   <button id='retake' onClick={this.props.handleRestart}><p>Try again?</p></button>
                 </Fragment> 
               : 
