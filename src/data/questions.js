@@ -117,7 +117,7 @@ const questions = [
     answers: [3]
   },
   {
-    question: 'Which one of the following are insects?',
+    question: 'Which of the following are insects?',
      options: [
       'Mosquito',
       'Gorilla',
@@ -125,7 +125,7 @@ const questions = [
       'Spider',
       'Tick'
     ],
-    answers: [0, 3, 4]
+    answers: [0, 2]
   },
   {
     question: 'In Which Apollo mission did the first humans land on the moon?',
