@@ -6,7 +6,7 @@ It's a small quiz app - answer the questions and get a score, with your feedback
 
 ## Demo
 
-Modern browsers only: [React Quiz](https://psjgit.github.io/React-quiz/)
+Modern browsers only: [React Quiz](https://psjgit.github.io/react-quiz/)
 
 ## To do
 
